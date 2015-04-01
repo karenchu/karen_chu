@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
   // use a render
-  res.render('home.ejs');
+  res.render('sites/home.ejs');
 });
 
 
