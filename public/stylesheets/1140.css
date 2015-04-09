@@ -39,6 +39,10 @@ margin-right: 0px;
 	font-size: 0.9em;
 	/* line-height: 1.6em; */
 	}
+
+	.logo {
+		font-size: 17em;
+	}
 	
 }
 
@@ -53,6 +57,10 @@ margin-right: 0px;
 	/* font-size: 0.em;
 	line-height: 1.5em; */
 	-webkit-text-size-adjust: none;
+	}
+
+	.logo {
+		font-size: 12em;
 	}
 	
 	.row, body, .container {

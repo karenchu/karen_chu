@@ -43,9 +43,8 @@ audio:not([controls]) { display: none; }
 	/* About Specific */
 	.about .row:first-child { padding: 0; margin-bottom: 2em; }
 	.about .row:first-child > div { margin-bottom: 3em; }
-	.about .capabilities div h4 { top: -.05em; }
+	.about .capabilities div h4 { top: 1em; }
 
-	
 	/* Footer Speicific */
 	footer .social li a { background-size: 60px 120px; width: 60px; height: 60px; }
 	footer .social li a:hover { background-position: 0 -60px; }
@@ -73,7 +72,6 @@ audio:not([controls]) { display: none; }
 	header.splash { background-image: linear-gradient(rgba(23, 22, 23, 0.8), rgba(23, 22, 23, 0.8)), url(imgs/bg_header-home_v2.jpg); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;  background-attachment: scroll; background-position-x: 60%; }
 	header#page-error { background-position-x: 66%; height: 550px; }
 	header#page-error .logo { display: none; }
-	header .logo img { width: 152px; height: 170px; margin: 20px auto 0 auto; }
 	header nav { margin: 20px 0 0 0; }
 	header nav ul { border-bottom: 1px solid #2f2f2f; border-bottom: 1px solid rgba(0,0,0,.4); text-align: center; }
 	header.splash nav ul { border-bottom: 1px solid #fff; border-bottom: 1px solid rgba(255,255,255,.4); text-align: center; }
@@ -89,9 +87,8 @@ audio:not([controls]) { display: none; }
 	
 	/* About Specific */
 	.about .capabilities { margin-top: 3em; }
-	.about .capabilities div h4 { top: -.1em; }
+	.about .capabilities div h4 { top: 1em; }
 
-	
 	/* Footer Specific */
 	footer .social li a { margin-right: .5em; }
 	footer .contact { margin-bottom: 3em; }
@@ -116,12 +113,6 @@ audio:not([controls]) { display: none; }
 	
 	/* Footer Specific */
 	footer .social a { background-size: 90px 180px; }
-	footer .social .twitter { background-image: url(imgs/sprite_twitter-2x.png); }
-	footer .social .google-plus { background-image: url(imgs/sprite_google-plus-2x.png); }
-	footer .social .forrst { background-image: url(imgs/sprite_forrst-2x.png); }
-	footer .social .pinterest { background-image: url(imgs/sprite_pinterest-2x.png); }
-	footer .social .facebook { background-image: url(imgs/sprite_facebook-2x.png); }
-	footer .social .dribbble { background-image: url(imgs/sprite_dribbble-2x.png); }	
 }
 
 /* ==|== Custom CSS3 Animations =============================================
