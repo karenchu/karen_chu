@@ -1,8 +1,9 @@
-body {
+html, body {
 	margin: 0 auto;
 	color: white;
-	font-family: 'Raleway', sans-serif;
-
+	font-family: 'Raleway', 'Century Gothic', CenturyGothic, sans-serif;
+	width: auto !important;
+  	overflow-x: hidden !important;
 }
 
 /* Fixed Bar */
@@ -62,15 +63,16 @@ nav li.current_page_parent a, header nav li.current_page_parent a {
 }
 
 .logo {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto Slab', Rockwell, serif;
 	font-size: 15em;
 	text-align: center;
 /*	color: rgb(63, 29, 13);*/
-	color: rgb(66, 26, 9);
+/*	color: rgb(66, 26, 9);*/
+	color: #222222;
 }
 
 .title {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', 'Century Gothic', CenturyGothic, sans-serif;
 	font-size: 5em;
 	text-align: center;
 	/*color: rgb(163, 102, 85);*/
