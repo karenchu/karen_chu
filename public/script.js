@@ -84,4 +84,3 @@ jQuery.fn.retina = function(retina_part) {
 }
 
 // -- End retina script
-
