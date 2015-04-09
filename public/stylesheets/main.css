@@ -5,6 +5,16 @@ body {
 
 }
 
+/* Fixed Bar */
+.fixed-bar { display: none; /* background: url(imgs/bg_body-noise.png) 0 0; */ background: rgb(21, 20, 15);; box-shadow: 0px 0px 1px #000; box-shadow: 0px 0px 1px rgba(0,0,0,.5); position: fixed; z-index: 999; width: 100%; opacity: .75; }
+.fixed-bar nav ul { padding: .7em 0 0 0; }
+.fixed-bar nav li { display: inline; }
+.fixed-bar nav li a { color: white; text-decoration: none; text-transform: uppercase; margin: 0 2em 0 0; font-weight: 500; font-size: 1.3em; font-style: normal; float: left; -webkit-transition: color .3s linear; }
+.fixed-bar nav li a:hover { color: #c6c6c6; text-decoration: none; -webkit-transition: color .3s linear; }
+.fixed-bar nav li.current-menu-item a, .fixed-bar nav li.current_page_parent a { color: #ff681f; }
+.fixed-bar #back-to-top { float: right; margin-top: .8em; width: 15px; height: 24px; background: url('http://i.imgur.com/qFhqNWA.png') no-repeat 0 0; text-indent: -9999px; /* ( -webkit-transition: background-position linear .3s; */ }
+.fixed-bar #back-to-top:hover { background-position: 0 -24px; /* -webkit-transition: background-position linear .3s; */ }
+
 #home {
     /*background: url('http://i.imgur.com/vU4DFiI.jpg') no-repeat center center fixed;*/
     background: url('http://i.imgur.com/BxVyQC4.jpg?1') no-repeat center center fixed;
@@ -111,7 +121,6 @@ nav li.current_page_parent a, header nav li.current_page_parent a {
 /* About Specific */
 .about .row { margin-bottom: 2em; }
 .about .row:first-child { padding-bottom: 3em; margin-bottom: 2em; border-bottom: 1px solid #CCCBC9; border-bottom: 1px solid rgba(0,0,0,.2); }
-
 .about .capabilities { list-style: none; padding: 0; margin: 5em 0 0 0; }
 .about .capabilities div { position: relative; background-color: #e6e4e4; padding: 4px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; /* box-shadow: 0 -1px 0 rgba(0,0,0,.2), 0 1px 0 #fff; */ margin-bottom: .75em; }
 .about .capabilities div h4 { position: absolute; top: -.1em; left: 1em; margin: 0; padding: 0; font-family: 'ff-tisa-web-pro', Georgia, serif; font-weight: 700; font-size: .7em; text-transform: none;  color: #cdc7c7; text-transform: uppercase; }
@@ -131,7 +140,6 @@ nav li.current_page_parent a, header nav li.current_page_parent a {
 .about .capabilities.animate div span.music-tour { width: 95%; }
 .about .capabilities.animate div span.event { width: 100%; }
 .about .capabilities.animate div span.managing { width: 80%; }
-.about .radar-chart { margin-top: 6em; width: 649px; height: auto; }
 
 #about {
 	background-color: #222222;
